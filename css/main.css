@@ -1,0 +1,23 @@
+.game-board {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  background: blue;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:black;
+}
+
+button {
+    background-color: aqua;
+    display: inline-block;
+}
