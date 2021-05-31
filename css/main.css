@@ -11,7 +11,7 @@ body {
     align-items: center;
   }
 
-.box {
+.cell {
   background: blue;
   border: 1px solid black;
   display: flex;
@@ -20,9 +20,18 @@ body {
   color:black;
 }
 
-h1 {
-    margin-top: 0;
-    margin-bottom: 50px;
+h2 {
+    background-color: black;
+    color: white;
+    border: 15px solid black;
+    border-radius: 50%;
+    margin: 10px;
+  }
+
+h2:hover {
+    background-color: white;
+    color: black;
+    margin: 10px;
   }
   
   td {
