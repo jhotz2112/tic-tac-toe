@@ -17,7 +17,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color:black;
+  color: white;
 }
 
 h2 {
@@ -34,28 +34,6 @@ h2:hover {
     margin: 10px;
   }
   
-  td {
-    height: 200px;
-    width: 200px;
-  }
-  
-  td div {
-    margin: 0 auto;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    pointer-events: none;
-  }
-  
-  tr td:nth-child(2) {
-    border-left: 4px dashed grey;
-    border-right: 4px dashed grey;
-  }
-  
-  tr:nth-child(2) td {
-    border-top: 4px dashed grey;
-    border-bottom: 4px dashed grey;
-  }
 
 button {
     margin-top: 30px;
